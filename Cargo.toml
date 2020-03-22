@@ -1,0 +1,18 @@
+[package]
+name = "simpleord"
+version = "0.1.0"
+edition = "2018"
+authors = ["Reid Rankin <reidrankin@gmail.com>"]
+license = "CC0-1.0"
+description = "Derive consistent implementations of Eq, PartialEq, and PartialOrd from an Ord impl"
+repository = "https://github.com/reidrankin/simpleord/"
+maintenance = "actively-developed"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "1.0.16"
+quote = "1.0.3"
